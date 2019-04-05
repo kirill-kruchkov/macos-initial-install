@@ -10,9 +10,6 @@
 	s = status
 [core]
 	excludesfile = ~/.gitignore_global
-[user]
-	name = Kirill Kriuchkov
-	email = kirill.kriuchkov@fashiontrade.com
 [credential]
 	helper = cache --timeout=2628000
 [filter "lfs"]

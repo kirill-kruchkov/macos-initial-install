@@ -494,13 +494,3 @@ function! GetDate(format)
   call setline(line('.'), getline('.') . ' ' . result)
 endfunction
 
-
-" TODO: перейти на Plug и lazy плагины:
-"   https://jordaneldredge.com/blog/why-i-switched-from-vundle-to-plug/
-" TODO: http://javascriptplayground.com/blog/2017/01/vim-for-javascript/
-" TODO: https://github.com/xolox/vim-notes или https://github.com/vimwiki/vimwiki
-" TODO: настроить https://github.com/edkolev/tmuxline.vim
-" TODO: настроить, что бы скролл мышкой оставлял курсор на месте, даже когда тот уходит с видимого экрана
-" TODO: Подумать про http://vim.wikia.com/wiki/Quick_command_in_insert_mode
-" TODO: Настроить перемещение строк https://dockyard.com/blog/2013/09/26/vim-moving-lines-aint-hard
-"  скорее всего по ctrl + alt + стрелка
