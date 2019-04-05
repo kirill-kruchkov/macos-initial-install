@@ -50,3 +50,6 @@ chsh -s /bin/zsh
 
 # Git global config
 cp ./gitconfig ~/.gitconfig
+
+# Other configs
+defaults write -g ApplePressAndHoldEnabled -bool false # repeat instead of special characters
