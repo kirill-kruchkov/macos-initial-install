@@ -16,6 +16,7 @@ brew cask install google-chrome
 brew cask install typora
 brew cask install visual-studio-code
 brew cask install iterm2
+brew install neovim
 
 # FiraCode Font
 brew tap caskroom/fonts
@@ -29,3 +30,8 @@ nvm install v8.11.3
 nvm alias default v8.11.3
 npm i -g npm
 npm i -g serve svgo
+
+# Nvim config
+mkdir ~/.config/nvim
+cp ./init.vim ~/.config/nvim
+
