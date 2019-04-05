@@ -20,6 +20,7 @@ brew cask install google-cloud-sdk
 brew install neovim
 brew install zsh
 brew install tmux
+brew install yarn
 
 # FiraCode Font
 brew tap caskroom/fonts
