@@ -44,6 +44,7 @@ nvim +PluginInstall +qall
 cp ./tmux.conf ~/.tmux.conf
 cp ./zshrc ~/.zshrc
 git clone https://github.com/tarjoilija/zgen.git "${HOME}/.zgen"
+chsh -s /bin/zsh
 
 # Git global config
 cp ./gitconfig ~/.gitconfig
