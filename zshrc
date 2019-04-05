@@ -30,7 +30,7 @@ prompt pure
 setopt interactivecomments
 
 # Setup VIM as default editor
-export EDITOR="vim"
+export EDITOR="nvim"
 export USE_EDITOR=$EDITOR
 export VISUAL=$EDITOR
 

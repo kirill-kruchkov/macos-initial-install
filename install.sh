@@ -16,7 +16,10 @@ brew cask install google-chrome
 brew cask install typora
 brew cask install visual-studio-code
 brew cask install iterm2
+brew cask install google-cloud-sdk
 brew install neovim
+brew install zsh
+brew install tmux
 
 # FiraCode Font
 brew tap caskroom/fonts
@@ -31,9 +34,16 @@ nvm alias default v8.11.3
 npm i -g npm
 npm i -g serve svgo
 
-# Nvim config
+# Nvim config & plugins
 mkdir ~/.config/nvim
 cp ./init.vim ~/.config/nvim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.config/nvim/bundle/Vundle.vim
 nvim +PluginInstall +qall
 
+# Zshell, tmux & plugins
+cp ./tmux.conf ~/.tmux.conf
+cp ./zshrc ~/.zshrc
+git clone https://github.com/tarjoilija/zgen.git "${HOME}/.zgen"
+
+# Git global config
+cp ./gitconfig ~/.gitconfig
