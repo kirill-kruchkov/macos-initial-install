@@ -21,6 +21,7 @@ brew install neovim
 brew install zsh
 brew install tmux
 brew install yarn
+brew install tig
 
 # FiraCode Font
 brew tap caskroom/fonts
