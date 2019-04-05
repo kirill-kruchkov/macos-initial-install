@@ -34,4 +34,6 @@ npm i -g serve svgo
 # Nvim config
 mkdir ~/.config/nvim
 cp ./init.vim ~/.config/nvim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.config/nvim/bundle/Vundle.vim
+nvim +PluginInstall +qall
 
