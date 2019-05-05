@@ -22,6 +22,7 @@ brew install zsh
 brew install tmux
 brew install yarn
 brew install tig
+brew install jq
 
 # FiraCode Font
 brew tap caskroom/fonts
