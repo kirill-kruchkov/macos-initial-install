@@ -22,7 +22,7 @@ Plugin 'wincent/terminus'               " Better terminal integration (paste, cu
 " Plugin 'tpope/vim-fugitive'             " Git integration
 Plugin 'vim-ctrlspace/vim-ctrlspace'    " Navigation and fuzzy search
 Plugin 'editorconfig/editorconfig-vim'	" EditorConfig
-" Plugin 'valloric/youcompleteme'         " Autocomplete solution
+Plugin 'valloric/youcompleteme'         " Autocomplete solution
 Plugin 'flowtype/vim-flow'              " Flow-type autocomplete
 " Plugin 'cohama/lexima.vim'              " Autoclose parens, quotes etc
 Plugin 'jelera/vim-javascript-syntax'   " VIM Javascript syntax with ES2015 template strings support
@@ -34,7 +34,7 @@ Plugin 'terryma/vim-multiple-cursors'   " Multiple cursorn on Ctrl+n (skip via C
 " Plugin 'SirVer/ultisnips'               " Snippets engine
 " Plugin 'honza/vim-snippets'             " Snippets
 " Plugin 'elmcast/elm-vim'                " Elm support
-" Plugin 'ternjs/tern_for_vim'            " Tern for Vim
+Plugin 'ternjs/tern_for_vim'            " Tern for Vim
 Plugin 'AlessandroYorba/Sierra'         " Sierra color theme
 Plugin 'scrooloose/nerdcommenter'       " Orgasmic comments
 Plugin 'slashmili/alchemist.vim'        " Support for Elixir
@@ -42,7 +42,7 @@ Plugin 'elixir-editors/vim-elixir'      " Elixir syntax highlight
 Plugin 'carlosgaldino/elixir-snippets'  " Elixir snippets
 Plugin 'epmatsw/ag.vim'
 Plugin 'prettier/vim-prettier'
-" Plugin 'autozimu/LanguageClient-neovim'
+Plugin 'autozimu/LanguageClient-neovim'
 " Plugin 'reasonml-editor/vim-reason-plus'
 Plugin 'jeffkreeftmeijer/vim-numbertoggle' " Smart line number toggling
 " Plugin 'sonph/onehalf'                  " Color theme

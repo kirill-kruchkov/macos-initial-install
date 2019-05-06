@@ -23,6 +23,7 @@ brew install tmux
 brew install yarn
 brew install tig
 brew install jq
+brew install cmake
 
 # FiraCode Font
 brew tap caskroom/fonts
@@ -42,6 +43,8 @@ mkdir ~/.config/nvim
 cp ./init.vim ~/.config/nvim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.config/nvim/bundle/Vundle.vim
 nvim +PluginInstall +qall
+~/.vim/bundle/LanguageClient-neovim/install.sh
+~/.vim/bundle/youcompleteme/install.py
 
 # Zshell, tmux & plugins
 cp ./tmux.conf ~/.tmux.conf
