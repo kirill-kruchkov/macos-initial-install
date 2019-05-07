@@ -21,7 +21,7 @@ if ! zgen saved; then
 fi
 
 # Set terminal color
-export TERM=xterm-256color
+export TERM=screen-256color
 
 # prompt cloud ❦ yellow
 prompt pure
